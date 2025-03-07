@@ -1,5 +1,5 @@
 import styles from './ProjectStyles.module.css';
-import viberr from '../../assets/viberr.png';
+import movie from '../../assets/hero.png';
 import freshBurger from '../../assets/fresh-burger.png';
 import fitLift from '../../assets/fitlift.png';
 import hipsster from '../../assets/hipsster.png';
@@ -11,10 +11,10 @@ function Projects() {
       <h1 className='sectionTitle'>Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link='project link'
-          h3='Viberr'
-          p='Streaming App'
+          src={movie}
+          link='https://movie-app-gray-nine.vercel.app/'
+          h3='Movie'
+          p='Movie Search App'
         />
         <ProjectCard
           src={freshBurger}
