@@ -1,6 +1,6 @@
 import styles from './ProjectStyles.module.css';
 import movie from '../../assets/hero.png';
-import freshBurger from '../../assets/fresh-burger.png';
+import xora from '../../assets/xeno.png';
 import fitLift from '../../assets/fitlift.png';
 import hipsster from '../../assets/hipsster.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -17,10 +17,10 @@ function Projects() {
           p='Movie Search App'
         />
         <ProjectCard
-          src={freshBurger}
-          link='project link'
-          h3='Fresh Burger'
-          p='Hamburger Restaurant'
+          src={xora}
+          link='https://sass-page-git-main-bathsheba1sts-projects.vercel.app/'
+          h3='XORA'
+          p='SaaS Landing Page'
         />
         <ProjectCard
           src={hipsster}
