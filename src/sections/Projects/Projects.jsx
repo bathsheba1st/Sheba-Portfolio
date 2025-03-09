@@ -2,7 +2,7 @@ import styles from './ProjectStyles.module.css';
 import movie from '../../assets/hero.png';
 import xora from '../../assets/xeno.png';
 import fitLift from '../../assets/fitlift.png';
-import hipsster from '../../assets/hipsster.png';
+import awwwwwards from '../../assets/gallery-4.webp';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -18,15 +18,15 @@ function Projects() {
         />
         <ProjectCard
           src={xora}
-          link='https://sass-page-git-main-bathsheba1sts-projects.vercel.app/'
+          link='https://sass-page-five.vercel.app/'
           h3='XORA'
           p='SaaS Landing Page'
         />
         <ProjectCard
-          src={hipsster}
-          link='project link'
-          h3='Hipsster'
-          p='Glasses Shop'
+          src={awwwwwards}
+          link='https://awwwwwards.vercel.app/'
+          h3='Awwwwwards'
+          p='Zentry Inspired Page'
         />
         <ProjectCard
           src={fitLift}
