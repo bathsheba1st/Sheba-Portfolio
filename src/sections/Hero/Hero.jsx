@@ -33,7 +33,7 @@ function Hero() {
           <br />
           Omidiora
         </h1>
-        <h2>Software Developer</h2>
+        <h2>Software Engineer</h2>
         <span>
           <a href='https://github.com/bathsheba1st' target='_blank'>
             <img src={githubIcon} alt='GitHub Icon' />
